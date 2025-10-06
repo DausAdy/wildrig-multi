@@ -50,11 +50,10 @@ Minimum driver versio is 452.39+ on Windows and 450.80.02+ on Linux. Supported l
 - lyra2v2
 - megabtx, memehash, meowpow
 - nexapow, nist5
-- phi, phihash, progpowz, progpow-ethercore, progpow-sero, progpow-telestai, progpow-quai, progpow-veil
+- phi, progpowz, progpow-ethercore, progpow-sero, progpow-telestai, progpow-quai
 - qhash, quark, qubit
 - sha256, sha256csm, sha256d, sha256q, sha256t, sha512256d, shandwich256, skein2, skunkhash, skydoge
 - timetravel, tribus
-- vprogpow
 - x11, x11k, x12, x13, x14, x15, x16r, x16rv2, x16rt, x16s, x17, x18, x20r, x21s, x22i, x25x, x33
 
 # DEV-FEE:
@@ -66,14 +65,11 @@ All algorithms are zero fee except listed below.
   - firopow
   - kawpow
   - meowpow
+  - nexapow
   - progpow-quai
-  - phihash
   - progpow-sero
   - progpow-telestai
-  - progpow-veil
-  - progpow-veriblock
   - progpowz
-  - nexapow
 - **1.00%**:
   - curvehash
   - ghostrider
