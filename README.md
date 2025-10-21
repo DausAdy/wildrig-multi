@@ -76,7 +76,7 @@ All algorithms are zero fee except listed below.
   - mike
 - **2.00%**:
   - skydoge
-- **5.00%**:
+- **3.00%**:
   - qhash
 
 # OPTIONS
