@@ -115,7 +115,6 @@ Options:
       --split-job N              amount of gpu's(or threads of it, keep this in mind) solving one job
 
       --opencl-platforms LIST    list of OpenCL platforms to use(amd, nvidia or intel; default: all)
-  -d, --opencl-devices LIST      list of OpenCL devices to use(default: all)
       --force-eff-mode           force to use efficient kernels when possible(e.g. memehash, skydoge)
       --progpow-kernel           depends on drivers values 1 or 2 can provide better hashrate for ProgPow(default: 0)
       --no-dag-split             disable splitting DAG on two parts(have sense only if AMD fix this problem in their drivers)
@@ -127,6 +126,7 @@ Options:
       --no-nvml                  disable monitoring via NVML
       --no-sysfs                 disable monitoring via sysfs
 
+  -d, --gpu-list LIST            list of gpu's to use(default: all)
       --gpu-threads N            set amount of threads per gpu(default: auto)
       --gpu-affinity N           affine GPU threads to a specific CPU thread
   -i, --gpu-intensity N          set intensity per gpu(default: auto)
