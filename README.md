@@ -50,7 +50,7 @@ Minimum driver versio is 452.39+ on Windows and 450.80.02+ on Linux. Supported l
 - lyra2v2
 - megabtx, memehash, meowpow
 - nexapow, nist5
-- phi, progpowz, progpow-ethercore, progpow-sero, progpow-telestai, progpow-quai
+- phi, progpowz, progpow-sero, progpow-telestai
 - qhash, quark, qubit
 - sha256, sha256csm, sha256d, sha256q, sha256t, sha512256d, shandwich256, skein2, skunkhash, skydoge
 - timetravel, tribus
