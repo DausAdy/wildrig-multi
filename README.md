@@ -50,7 +50,7 @@ Minimum driver versio is 452.39+ on Windows and 450.80.02+ on Linux. Supported l
 - lyra2v2
 - megabtx, memehash, meowpow
 - nexapow, nist5
-- phi, progpowz, progpow-sero, progpow-telestai
+- pearlhash, phi, progpowz, progpow-sero, progpow-telestai
 - qhash, quark, qubit
 - sha256, sha256csm, sha256d, sha256q, sha256t, sha512256d, shandwich256, skein2, skunkhash, skydoge
 - timetravel, tribus
@@ -134,6 +134,7 @@ Options:
       --gpu-temp-resume N        set temperature at which gpu will resume mining(default: 60)
 
       --gpu-reset-oc             reset gpu overclock settings on start
+      --gpu-delay-oc N           delay gpu overclock settings in seconds(default: 0)
       --gpu-core-clock N         lock GPU core clock to N
       --gpu-core-offset N        set offset N for GPU core clock
       --gpu-memory-clock N       lock GPU memory clock to N
